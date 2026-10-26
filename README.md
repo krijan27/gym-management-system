@@ -1,12 +1,12 @@
-Gym Management System
+# Gym Management System
 
 A web-based gym management application developed as a university project for the PHP Fundamentals course at the University of Slavonski Brod.
 
 The application provides user authentication, role-based access, workout management, trainer management, and workout registrations.
 
-Features
+## Features
 
-Authentication & Security
+## Authentication & Security
 
 User registration and login
 
@@ -16,7 +16,7 @@ Role-based access control (Admin and Member)
 
 User session management
 
-Admin Dashboard
+## Admin Dashboard
 
 Create, view, update, and delete trainers
 
@@ -24,7 +24,7 @@ Create, view, update, and delete workouts
 
 View dashboard statistics
 
-Member Dashboard
+## Member Dashboard
 
 Browse available workouts
 
@@ -102,6 +102,6 @@ University of Slavonski Brod, Croatia
 
 GitHub: https://github.com/krijan27
 
-Project Status
+## Project Status
 
 Completed university project. Future improvements may include REST API development, automated testing, and deployment.
