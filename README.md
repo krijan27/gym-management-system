@@ -48,6 +48,7 @@ Development Environment: XAMPP (Apache, MySQL)
 
 Project Structure
 
+```text
 gym-management-system/
 ├── admin/       # Admin functionalities
 ├── config/      # Database configuration
@@ -56,6 +57,7 @@ gym-management-system/
 ├── public/      # Login, registration and dashboard
 ├── sql/         # Database SQL script
 └── README.md
+```
 
 Installation and Setup
 
