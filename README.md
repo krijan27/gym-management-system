@@ -6,7 +6,7 @@ The application provides user authentication, role-based access, workout managem
 
 ## Features
 
-## Authentication & Security
+### Authentication & Security
 
 User registration and login
 
@@ -16,7 +16,7 @@ Role-based access control (Admin and Member)
 
 User session management
 
-## Admin Dashboard
+### Admin Dashboard
 
 Create, view, update, and delete trainers
 
@@ -24,7 +24,7 @@ Create, view, update, and delete workouts
 
 View dashboard statistics
 
-## Member Dashboard
+### Member Dashboard
 
 Browse available workouts
 
