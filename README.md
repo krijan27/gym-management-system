@@ -34,7 +34,7 @@ Cancel workout registrations
 
 View personal workout registrations
 
-Technologies Used
+## Technologies Used
 
 Backend: PHP
 
@@ -46,7 +46,7 @@ Frontend: HTML, CSS
 
 Development Environment: XAMPP (Apache, MySQL)
 
-Project Structure
+## Project Structure
 
 ```text
 gym-management-system/
@@ -59,7 +59,7 @@ gym-management-system/
 └── README.md
 ```
 
-Installation and Setup
+## Installation and Setup
 
 Install XAMPP and start Apache and MySQL.
 
@@ -77,7 +77,7 @@ http://localhost/teretana/public/login.php
 
 If you use a different folder name, update the URL accordingly.
 
-What I Learned
+## What I Learned
 
 While developing this project, I gained practical experience with:
 
@@ -93,7 +93,7 @@ Working with relational databases
 
 Organizing backend application code
 
-Author
+## Author
 
 Marin Krijan
 
