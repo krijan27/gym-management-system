@@ -1,46 +1,105 @@
-# Gym App
+Gym Management System
 
-Projektni zadatak iz kolegija Osnove PHP-a.
+A web-based gym management application developed as a university project for the PHP Fundamentals course at the University of Slavonski Brod.
 
-## Funkcionalnosti
+The application provides user authentication, role-based access, workout management, trainer management, and workout registrations.
 
-* Registracija korisnika
-* Prijava korisnika
-* Zaštita lozinki pomoću password_hash()
-* Korisničke uloge (admin i član)
-* CRUD nad trenerima
-* CRUD nad treninzima
-* Prijava na trening
-* Odjava s treninga
-* Dashboard sa statistikom
+Features
 
-## Tehnologije
+Authentication & Security
 
-* PHP
-* MySQL
-* PDO
-* XAMPP
+User registration and login
 
-## Pokretanje projekta
+Secure password hashing using password_hash()
 
-1. Pokrenuti Apache i MySQL u XAMPP-u.
-2. Kreirati bazu podataka gym_app.
-3. Pokrenuti SQL skripte za izradu tablica.
-4. Otvoriti aplikaciju na:
+Role-based access control (Admin and Member)
+
+User session management
+
+Admin Dashboard
+
+Create, view, update, and delete trainers
+
+Create, view, update, and delete workouts
+
+View dashboard statistics
+
+Member Dashboard
+
+Browse available workouts
+
+Register for workouts
+
+Cancel workout registrations
+
+View personal workout registrations
+
+Technologies Used
+
+Backend: PHP
+
+Database: MySQL
+
+Database Access: PDO (PHP Data Objects)
+
+Frontend: HTML, CSS
+
+Development Environment: XAMPP (Apache, MySQL)
+
+Project Structure
+
+gym-management-system/
+├── admin/       # Admin functionalities
+├── config/      # Database configuration
+├── includes/    # Shared functionality and authentication
+├── member/      # Member functionalities
+├── public/      # Login, registration and dashboard
+├── sql/         # Database SQL script
+└── README.md
+
+Installation and Setup
+
+Install XAMPP and start Apache and MySQL.
+
+Create a MySQL database named gym_app.
+
+Import sql/database.sql into the database using phpMyAdmin.
+
+Configure your local database connection in config/database.php.
+
+Place the project folder inside the XAMPP htdocs directory.
+
+Open the application in your browser:
 
 http://localhost/teretana/public/login.php
 
-## Korisničke uloge
+If you use a different folder name, update the URL accordingly.
 
-### Admin
+What I Learned
 
-* Upravljanje trenerima
-* Upravljanje treninzima
-* Pregled statistike
+While developing this project, I gained practical experience with:
 
-### Član
+Server-side development using PHP
 
-* Pregled treninga
-* Prijava na trening
-* Odjava s treninga
-* Pregled vlastitih treninga
+Connecting applications to MySQL databases using PDO
+
+Implementing CRUD operations
+
+User authentication and authorization
+
+Working with relational databases
+
+Organizing backend application code
+
+Author
+
+Marin Krijan
+
+Information Technology Student
+University of Slavonski Brod, Croatia
+
+GitHub: https://github.com/krijan27
+
+Project Status
+
+Completed university project. Future improvements may include REST API development, automated testing, and deployment.
